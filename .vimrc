@@ -60,5 +60,19 @@ set autowrite
 au BufWinLeave * mkview
 au BufWinEnter * silent loadview
 
+" https://github.com/garbas/vim-snipmate
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'garbas/vim-snipmate'
 
+" Optional:
+Plugin 'honza/vim-snippets'
 
+" https://github.com/garbas/vim-snipmate/issues/256
+" SnipMate 
+
+source ~/.vim/word_complete.vim
+call DoWordComplete()
+
+set bg=dark
+autocmd VimEnter * NERDTree
