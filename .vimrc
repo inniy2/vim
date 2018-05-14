@@ -1,5 +1,6 @@
 " git clone https://github.com/VundleVim/Vundle.vim.git
-":PluginInstall
+" mkdir ~/.vim/bundle
+" :PluginInstall
 
 set nocompatible              " be iMproved, required
 filetype off                  " required
