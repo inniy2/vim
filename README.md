@@ -9,7 +9,7 @@ cp ~/vim/.vimrc ~/
 
 2. Install Vundel.vim  
 ```bash
-cd ~/.vim.bundle
+cd ~/.vim/bundle
 git clone https://github.com/VundleVim/Vundle.vim.git
 
 vim 
