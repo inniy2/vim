@@ -7,6 +7,7 @@ syntax on
 
 set path+=/**
 
+set backspace=indent,eol,start
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -38,7 +39,7 @@ set paste
 
 " remappting for coyp
 " map <C-c> :w !pbcopy<CR><CR>
-                        
+			
 " auto view for foilding
 "autocmd BufWinleave *.* mkview!
 "autocmd BufWinEnter *.* silent loadview
@@ -73,7 +74,7 @@ set  tabstop=4
 
 nnoremap <C-N> :bnext<CR>
 nnoremap <C-P> :bprev<CR>
-nnoremap <C-L> :NERDTreeCWD <CR>
+nnoremap <C-L> :NERDTreeToggle<CR>
 
 augroup twig_ft
   au!
